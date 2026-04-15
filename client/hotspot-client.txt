@@ -1,0 +1,13 @@
+# Hotspot Client Testing (Ubuntu)
+
+# Update package
+apt update
+
+# Install text-based browser
+apt install lynx -y
+
+# Akses website untuk trigger login hotspot
+lynx google.com
+
+# Setelah login, test koneksi
+ping 8.8.8.8
