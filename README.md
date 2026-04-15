@@ -32,6 +32,7 @@ topology/Screenshot from 2026-04-15 13-13-38.png
 ##  Setup Client
 
 ### Hotspot Client (Ubuntu)
+```bash
 apt update
 apt install lynx -y
 
