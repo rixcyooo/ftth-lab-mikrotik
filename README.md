@@ -45,7 +45,7 @@ apt install lynx -y
 
 ## Konfigurasi Utama
 
-Set VLAN pada MikroTik CORE
+### Set VLAN pada MikroTik CORE
 ```bash
 /interface vlan add name=vlan10 vlan-id=10 interface=ether2
 /interface vlan add name=vlan20 vlan-id=20 interface=ether2
