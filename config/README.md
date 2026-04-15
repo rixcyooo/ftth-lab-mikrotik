@@ -2,6 +2,6 @@
 
 File konfigurasi dapat dilihat di folder:
 
-- `/config/core.rsc`
+- `Mikrotik-Core.rsc`
 - `/config/switch.rsc`
 - `/config/branch.rsc`
