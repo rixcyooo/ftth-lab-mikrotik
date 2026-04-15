@@ -1,25 +1,25 @@
 # FTTH Lab Simulation (MikroTik CHR + GNS3)
 
-## 📌 Overview
+##  Overview
 Lab ini mensimulasikan jaringan FTTH (Fiber To The Home) menggunakan MikroTik CHR dalam lingkungan virtual GNS3.
 
 Topologi ini mencakup implementasi PPPoE dan Hotspot dalam satu jaringan dengan segmentasi VLAN serta komunikasi antar router.
 
 ---
 
-## 🗺️ Topology
+##  Topology
 ![Topology](topology/topology.png)
 
 ---
 
-## ⚙️ Environment
+##  Environment
 - GNS3
 - MikroTik CHR
 - Ubuntu Server (Client)
 
 ---
 
-## 🧩 Fitur yang Diimplementasikan
+##  Fitur yang Diimplementasikan
 - VLAN segmentation
 - PPPoE Server (multi client)
 - Hotspot authentication
@@ -29,7 +29,7 @@ Topologi ini mencakup implementasi PPPoE dan Hotspot dalam satu jaringan dengan 
 
 ---
 
-## 💻 Setup Client
+##  Setup Client
 
 ### PPPoE Client (Ubuntu)
 ```bash
@@ -43,7 +43,7 @@ apt install lynx -y
 ```
 ---
 
-## 🔧 Konfigurasi Di MikroTik CORE
+##  Konfigurasi Utama
 
 ### VLAN
 ```bash
@@ -63,7 +63,7 @@ apt install lynx -y
 /ip firewall nat add chain=srcnat action=masquerade
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### PPPoE
 ```bash
@@ -80,12 +80,11 @@ Expected:
 - Redirect ke halaman login hotspot
 - Setelah login → bisa akses internet
 
-## 🧠 Kesimpulan
+##  Kesimpulan
 Melalui lab ini, saya memahami:
 - Implementasi PPPoE dan Hotspot dalam satu topologi
 - Pentingnya VLAN untuk segmentasi jaringan
 - Peran routing dalam menentukan jalur komunikasi
-- Proses troubleshooting jaringan secara lebih terstruktur
 
 
 
