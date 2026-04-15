@@ -58,10 +58,6 @@ apt install lynx -y
 ```bash
 /ip firewall nat add chain=srcnat action=masquerade
 ```
-### NAT
-```bash
-/ip firewall nat add chain=srcnat action=masquerade
-```
 
 ## 🧪 Testing
 
