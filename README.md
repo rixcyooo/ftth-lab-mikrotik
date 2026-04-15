@@ -8,7 +8,7 @@ Topologi ini mencakup implementasi PPPoE dan Hotspot dalam satu jaringan dengan 
 ---
 
 ## 🗺️ Topology
-topology/
+![Topology](topology/topology.png)
 
 ---
 
