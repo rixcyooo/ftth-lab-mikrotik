@@ -36,7 +36,6 @@ topology/
 apt update
 apt install ppp pppoe -y
 ```
-
 ## Hotspot Client (Ubuntu)
 ```bash
 apt update
