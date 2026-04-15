@@ -1,0 +1,16 @@
+# PPPoE Client Setup (Ubuntu)
+
+# Update package
+apt update
+
+# Install PPPoE package
+apt install ppp pppoe -y
+
+# Jalankan koneksi PPPoE
+pppoeconf
+
+# Cek IP address
+ip a
+
+# Test koneksi
+ping 8.8.8.8
