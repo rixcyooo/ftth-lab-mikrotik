@@ -43,10 +43,49 @@ apt install lynx -y
 ```
 ---
 
-## 🔧 Konfigurasi Utama
+## 🔧 Konfigurasi Di MikroTik CORE
 
-### Set VLAN pada MikroTik CORE
+### VLAN
 ```bash
 /interface vlan add name=vlan10 vlan-id=10 interface=ether2
 /interface vlan add name=vlan20 vlan-id=20 interface=ether2
 ```
+### PPPoE Server
+```bash
+/interface pppoe-server server add interface=vlan10 disabled=no
+```
+### NAT
+```bash
+/ip firewall nat add chain=srcnat action=masquerade
+```
+### NAT
+```bash
+/ip firewall nat add chain=srcnat action=masquerade
+```
+
+## 🧪 Testing
+
+### PPPoE
+```bash
+pppd call ppp10
+```
+Expected:
+-Client mendapatkan IP
+- Koneksi internet berjalan
+### Hotspot
+```bash
+lynx google.com
+```
+Expected:
+- Redirect ke halaman login hotspot
+- Setelah login → bisa akses internet
+
+## 🧠 Kesimpulan
+Melalui lab ini, saya memahami:
+- Implementasi PPPoE dan Hotspot dalam satu topologi
+- Pentingnya VLAN untuk segmentasi jaringan
+- Peran routing dalam menentukan jalur komunikasi
+- Proses troubleshooting jaringan secara lebih terstruktur
+
+
+
