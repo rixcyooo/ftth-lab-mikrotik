@@ -70,7 +70,7 @@ apt install lynx -y
 pppd call ppp10
 ```
 Expected:
--Client mendapatkan IP
+- Client mendapatkan IP
 - Koneksi internet berjalan
 ### Hotspot
 ```bash
