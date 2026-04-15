@@ -33,6 +33,21 @@ topology/
 
 ### PPPoE Client (Ubuntu)
 ```bash
-```
 apt update
 apt install ppp pppoe -y
+```
+
+Hotspot Client (Ubuntu)
+```bash
+apt update
+apt install lynx -y
+```
+---
+
+Konfigurasi Utama
+
+VLAN
+```bash
+/interface vlan add name=vlan10 vlan-id=10 interface=ether1
+/interface vlan add name=vlan20 vlan-id=20 interface=ether1
+```
