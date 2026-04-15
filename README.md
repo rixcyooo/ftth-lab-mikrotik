@@ -43,7 +43,7 @@ apt install lynx -y
 ```
 ---
 
-## Konfigurasi Utama
+## 🔧 Konfigurasi Utama
 
 ### Set VLAN pada MikroTik CORE
 ```bash
