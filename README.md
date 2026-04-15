@@ -54,6 +54,10 @@ apt install lynx -y
 ```bash
 /interface pppoe-server server add interface=vlan10 disabled=no
 ```
+### Hotspot Server
+```bash
+/ip hotspot setup
+```
 ### NAT
 ```bash
 /ip firewall nat add chain=srcnat action=masquerade
