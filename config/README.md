@@ -3,5 +3,5 @@
 File konfigurasi dapat dilihat di folder:
 
 - `Mikrotik-Core.rsc`
-- `/config/switch.rsc`
-- `/config/branch.rsc`
+- `Mikrotik-MekarBakti.rsc`
+- `Mikrotik-Switch.rsc`
