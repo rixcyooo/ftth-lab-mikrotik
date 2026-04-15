@@ -37,14 +37,14 @@ apt update
 apt install ppp pppoe -y
 ```
 
-Hotspot Client (Ubuntu)
+## Hotspot Client (Ubuntu)
 ```bash
 apt update
 apt install lynx -y
 ```
 ---
 
-Konfigurasi Utama
+## Konfigurasi Utama
 
 VLAN
 ```bash
