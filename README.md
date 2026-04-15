@@ -67,7 +67,7 @@ apt install lynx -y
 
 ### PPPoE
 ```bash
-pppd call ppp10
+pppoeconf
 ```
 Expected:
 - Client mendapatkan IP
